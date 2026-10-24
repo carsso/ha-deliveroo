@@ -68,7 +68,7 @@ Things to know:
 | `button.<name>_refresh_now` | Check for a new order immediately |
 | `button.<name>_simulate_order` | Replay a demo order (see below) |
 
-Entity ids follow your Home Assistant language (e.g. `sensor.<name>_fase` in Italian).
+Entity ids follow your Home Assistant language (e.g. `sensor.<name>_fase` in Italian, `sensor.<name>_etape` in French).
 
 Deliveroo only sends the rider's position once they are heading to you (from the "in transit"
 step until delivery), never while they go to the restaurant. The rider's name is not stored.
